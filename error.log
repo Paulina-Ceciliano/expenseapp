@@ -1,0 +1,51 @@
+[29-Sep-2022 05:57:12 Europe/Berlin] Inicio de aplicación
+[29-Sep-2022 05:57:12 Europe/Berlin] login::construct->Iniciando controlador login
+[29-Sep-2022 05:57:12 Europe/Berlin] login::render->Carga el index del login
+[29-Sep-2022 06:00:05 Europe/Berlin] Inicio de aplicación
+[29-Sep-2022 06:00:05 Europe/Berlin] login::construct->Iniciando controlador login
+[29-Sep-2022 06:00:05 Europe/Berlin] login::render->Carga el index del login
+[29-Sep-2022 06:13:13 Europe/Berlin] Inicio de aplicación
+[29-Sep-2022 06:13:13 Europe/Berlin] login::construct->Iniciando controlador login
+[29-Sep-2022 06:13:13 Europe/Berlin] login::render->Carga el index del login
+[29-Sep-2022 06:35:49 Europe/Berlin] Inicio de aplicación
+[29-Sep-2022 06:35:49 Europe/Berlin] login::construct->Iniciando controlador login
+[29-Sep-2022 06:35:49 Europe/Berlin] login::render->Carga el index del login
+[29-Sep-2022 06:45:03 Europe/Berlin] Inicio de aplicación
+[29-Sep-2022 06:45:03 Europe/Berlin] login::construct->Iniciando controlador login
+[29-Sep-2022 06:45:03 Europe/Berlin] login::render->Carga el index del login
+[29-Sep-2022 07:03:41 Europe/Berlin] Inicio de aplicación
+[29-Sep-2022 07:03:41 Europe/Berlin] login::construct->Iniciando controlador login
+[29-Sep-2022 07:03:41 Europe/Berlin] login::render->Carga el index del login
+[29-Sep-2022 22:49:38 Europe/Berlin] Inicio de aplicación
+[29-Sep-2022 22:49:38 Europe/Berlin] PHP Warning:  include_once(libs/imoodel.php): failed to open stream: No such file or directory in C:\xampp\htdocs\expenseapp\libs\model.php on line 3
+[29-Sep-2022 22:49:38 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'libs/imoodel.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\expenseapp\libs\model.php on line 3
+[29-Sep-2022 22:49:38 Europe/Berlin] login::construct->Iniciando controlador login
+[29-Sep-2022 22:49:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Interface 'IModel' not found in C:\xampp\htdocs\expenseapp\models\loginmodel.php:2
+Stack trace:
+#0 C:\xampp\htdocs\expenseapp\libs\controller.php(13): require_once()
+#1 C:\xampp\htdocs\expenseapp\libs\app.php(23): Controller->loadModel('login')
+#2 C:\xampp\htdocs\expenseapp\index.php(21): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\expenseapp\models\loginmodel.php on line 2
+[29-Sep-2022 22:50:18 Europe/Berlin] Inicio de aplicación
+[29-Sep-2022 22:50:18 Europe/Berlin] PHP Warning:  include_once(libs/imoodel.php): failed to open stream: No such file or directory in C:\xampp\htdocs\expenseapp\libs\model.php on line 3
+[29-Sep-2022 22:50:18 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'libs/imoodel.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\expenseapp\libs\model.php on line 3
+[29-Sep-2022 22:50:18 Europe/Berlin] login::construct->Iniciando controlador login
+[29-Sep-2022 22:50:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Interface 'IModel' not found in C:\xampp\htdocs\expenseapp\models\loginmodel.php:2
+Stack trace:
+#0 C:\xampp\htdocs\expenseapp\libs\controller.php(13): require_once()
+#1 C:\xampp\htdocs\expenseapp\libs\app.php(23): Controller->loadModel('login')
+#2 C:\xampp\htdocs\expenseapp\index.php(21): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\expenseapp\models\loginmodel.php on line 2
+[29-Sep-2022 22:51:08 Europe/Berlin] Inicio de aplicación
+[29-Sep-2022 22:51:08 Europe/Berlin] PHP Warning:  include_once(libs/imoodel.php): failed to open stream: No such file or directory in C:\xampp\htdocs\expenseapp\libs\model.php on line 3
+[29-Sep-2022 22:51:08 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'libs/imoodel.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\expenseapp\libs\model.php on line 3
+[29-Sep-2022 22:51:08 Europe/Berlin] login::construct->Iniciando controlador login
+[29-Sep-2022 22:51:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Interface 'IModel' not found in C:\xampp\htdocs\expenseapp\models\loginmodel.php:2
+Stack trace:
+#0 C:\xampp\htdocs\expenseapp\libs\controller.php(13): require_once()
+#1 C:\xampp\htdocs\expenseapp\libs\app.php(23): Controller->loadModel('login')
+#2 C:\xampp\htdocs\expenseapp\index.php(21): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\expenseapp\models\loginmodel.php on line 2
