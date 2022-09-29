@@ -49,3 +49,8 @@ Stack trace:
 #2 C:\xampp\htdocs\expenseapp\index.php(21): App->__construct()
 #3 {main}
   thrown in C:\xampp\htdocs\expenseapp\models\loginmodel.php on line 2
+[30-Sep-2022 00:24:43 Europe/Berlin] Inicio de aplicación
+[30-Sep-2022 00:24:43 Europe/Berlin] PHP Warning:  include_once(libs/imoodel.php): failed to open stream: No such file or directory in C:\xampp\htdocs\expenseapp\libs\model.php on line 3
+[30-Sep-2022 00:24:43 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'libs/imoodel.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\expenseapp\libs\model.php on line 3
+[30-Sep-2022 00:24:43 Europe/Berlin] login::construct->Iniciando controlador login
+[30-Sep-2022 00:24:43 Europe/Berlin] login::render->Carga el index del login

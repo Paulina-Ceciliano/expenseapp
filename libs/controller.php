@@ -31,6 +31,7 @@ class Controller{
     function existGET($params){
         foreach ($params as $param) {
             if(!isset($_GET[$param])){
+                error_log("ExistGET: No existe el parametro $param" );
                 return false;
             }
         }
@@ -49,8 +50,8 @@ class Controller{
         $data = [];
         $params = '';
         
-        foreach ($mensajes as $key => $value) {
-            array_push($data, $key . '=' . $value);
+        foreach ($mensajes as $key => $mensaje ) {
+            array_push($data, $mensaje . '=' . $mensaje);
         }
         $params = join('&', $data);
         
